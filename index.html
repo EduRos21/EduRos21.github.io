@@ -1,109 +1,222 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">Acerca</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Formación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contáctame</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<html>
-	<head>
-		<title>Portafolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-	</head>
-	<body class="is-preload">
+    <!-- Header -->
+    <header class="header container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-4 mt-4">
+            <h4>
+              <strong id="my">Hola soy Eduardo Rosales</strong>, desarrollador
+              web especializado en el desarrollo fullstack empleando Java.
+            </h4>
+          </div>
+          <div class="col-md-6 d-grid justify-content-center mb-4 mt-4">
+            <img
+              style="height: 100px"
+              src="https://static.wixstatic.com/media/ff9d7d_6c4add613f9142998981fa424cf843b8~mv2.png/v1/fill/w_1000,h_625,al_c,q_90,usm_0.66_1.00_0.01/ff9d7d_6c4add613f9142998981fa424cf843b8~mv2.png"
+              alt="Java"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="https://imagenes.elpais.com/resizer/v2/4UPKL26K5ZICHFC6UIAU5DDHWU.jpg?auth=393fdef15d621d403eec4dc5bc104e8ce874f3be8958f4d708d2ca856b646922&width=1960&height=1470&smart=true" alt="" /></a>
-					<h1><strong>Soy Eduardo Rosales</strong>, desarrollador web<br />
-					especializado en el desarrollo fullstack<br />
-					empleando Java.</h1>
-				</div>
-			</header>
+    <!-- Main -->
+    <main>
+    
+      <!-- about -->
+      <div class="container w-50 mb-4">
+        <section id="about" class="container card mt-6">
+          <header class="text-center mb-2 mt-4">
+            <h2>Desarrollador FullStack | MERN stack</h2>
+          </header>
+          <p class="px-3 py-3">
+            Hola soy Eduardo, un desarrollador Java Full Stack con experiencia
+            en el desarrollo de aplicaciones web, dominando tecnologías para el
+            frontend como JavaScript, React, HTML, CSS además del dominio de
+            tecnologías para el back end como Spring Boot, Hibernate, JWT. Con
+            la capacidad de trabajo en entornos ágiles y colaborar eficazmente
+            en grupos de trabajo aplicando siempre las buenas prácticas.
+          </p>
+        </section>
+      </div>
 
-		<!-- Main -->
-			<div id="main">
+      <!-- Skills -->
+      <hr class="separation"/>
+      <h1 class="text-center">Habilidades Técnicas</h1>
+      <div class="container w-50">
+        <section id="skills" class="container card">
+        <div class="container d-grid">
+          <div class="row mt-5">
+            <div class="col-md-4 d-flex justify-content-center">
+              <img class="tech-skills" src="./skills/html5.png" alt="HTML5">
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+              <img class="tech-skills" src="./skills/css.svg" alt="CSS">
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+              <img class="tech-skills" src="./skills/javascript.png" alt="JavaScript">
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-4 d-flex justify-content-center">
+               <img class="tech-skills" src="./skills/java.png" alt="Java">
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+               <img class="tech-skills" src="./skills/spring.svg" alt="spring">
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+               <img class="tech-skills" src="./skills/mysql.webp" alt="MySQL">
+            </div>
+          </div>
+          <div class="row mt-3 mb-5">
+            <div class="col-md-4 d-flex justify-content-center">
+               <img class="tech-skills" src="./skills/python.png" alt="python">
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+               <img class="tech-skills" src="./skills/bootstrap.png" alt="Bootstrap">
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+               <img class="tech-skills" src="./skills/git.webp" alt="git">
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
+      
+      <hr class="separation">
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>Desarrollador FullStack | MERN stack</h2>
-						</header>
-						<p>Hola soy Eduardo, un desarrollador Java Full Stack con experiencia en el desarrollo de aplicaciones web, dominando tecnologías para el front end como JavaScript, React, HTML, CSS además del dominio de tecnologías para el back end como Spring Boot, Hibernate, JWT. Con la capacidad de trabajo en entornos ágiles y colaborar eficazmente en grupos de trabajo aplicando siempre las buenas prácticas. </p>
-					</section>
 
-				<!-- Two -->
-					<section id="two">
-						<h1>Trabajo</h1>
-						<h2>Proyectos</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="./repairman/logo-repairman.png" class="image fit thumb"><img src="./repairman/logo-repairman.png" alt="" /></a>
-								<h3>E-COMMERCE REPAIRMAN</h3>
-								<a href="https://www.figma.com/proto/QqsEv5OCoS3eyeq0iXeuf4/Repairman-ex-iphone-%7C-E-Commerce-Website-Template--Community-?node-id=1-2&p=f&t=78DYHxO17C4iyUd2-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2" class="btn btn-primary">Ver</a>
-							</article>
-						</div>
-						
-					</section>
+      <!-- Proyectos  -->
+      <h1 class="text-center">Proyectos</h1>
+      <div class="container w-50 mb-4">
+        <section id="projects" class="container card mt-6">
+          <div class="container d-grid justify-content-center">
+            <div class="card mt-5 mb-5" style="width: 18rem">
+              <img
+                src="./repairman/logo-repairman.png"
+                class="card-img-top border-bottom"
+                alt="REPAIRMAN"
+              />
+              <div class="card-body">
+                <h5 class="card-title">E-COMMERCE</h5>
+                <p class="card-text">
+                  Desarrollo de una aplicación fullstack con Java.
+                </p>
+                <a
+                  href="https://www.figma.com/proto/QqsEv5OCoS3eyeq0iXeuf4/Repairman-ex-iphone-%7C-E-Commerce-Website-Template--Community-?node-id=1-2&p=f&t=78DYHxO17C4iyUd2-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2"
+                  class="btn btn-primary"
+                  >Ver más</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
 
-				<!-- Three -->
-					<section id="three">
-						<h2>Contacto</h2>
-						<p><strong>Pongase en contacto conmigo.</strong></p>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Nombre" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Correo" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Mensaje" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Enviar" /></li>
-								</ul>
-							</div>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Dirección</span></h3>
-										Tultitlán<br />
-										Estado de México<br />
-										México
-									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Teléfono</span></h3>
-										720 136 4349
-									</li>
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Correo</span></h3>
-										<a href="#">Eduardo.Rosales.A@outlook.com</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
-			</div>
+    <!-- contact -->
+     <hr class="separation"/>
+     <h1 class="text-center">Contáctame</h1>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</div>
-			</footer>
+     <div class="container w-50">
+      <section id="contact" class="container card">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-center mt-3">Póngase en contacto conmigo</p>
+            <form class="mb-4">
+              <label for="name" class="form-label mt-1">Nombre</label>
+              <input type="text" placeholder="Nombre" class="form-control">
+              <label for="email" class="form-label mt-1">Correo</label>
+              <input type="email" placeholder="Correo" 
+              class="form-control">
+              <label for="message" class="form-label mt-1">Mensaje</label>
+              <textarea name="message" id="message" placeholder="Mensaje" class="form-control"></textarea>
+              <input type="submit" value="Enviar" class="btn btn-primary mt-3">
+            </form>
+          </div>
+          <div class="col-md-6">
+            <div class="container mt-5">
+              <p>Tultitlán</p>
+            <p>Estado de México, México</p>
+            <p><span>Treléfono: </span>+52 720 136 4349</p>
+            <p><span>Correo: </span>Eduardo.Rosales.A@gmail.com</p>
+            <div class="container">
+            <div class="d-flex gap-2">
+              <div><a href="https://github.com/EduRos21" style="text-decoration: none;"><i class="bi bi-github"> GitHub</i></a></div>
+            <div>
+              <a href="https://www.linkedin.com/in/eduardorosalesalvarado/" style="text-decoration: none;"><i class="bi bi-linkedin"> LinkedId</i></a>
+            </div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container text-center">
+        <p id="thanks" class="fs-1">Gracias por visitar :D</p>
+      </div>
+    </footer>
 
-		<!-- Scripts -->
-			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

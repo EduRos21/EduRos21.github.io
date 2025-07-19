@@ -1,0 +1,90 @@
+body {
+  background-color: #271752;
+}
+
+.separation {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.header {
+  background-image: url(./images/J4o.gif);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  text-justify: auto;
+}
+.java-image {
+  min-height: 50px auto;
+}
+#my-name {
+  color: azure;
+}
+.card {
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.container:hover > :not(:hover) {
+  opacity: 0.3;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  background-color: #031527; /* Color de fondo claro */
+  padding: 40px 0; /* Espaciado interno */
+  margin-top: 50px; /* Margen superior para separarlo del contenido */
+  border-top: 1px solid #e7e7e7; /* Borde superior sutil */
+}
+
+#about {
+  margin-top: 100px;
+  background-color: #1b3146;
+  background: linear-gradient(135deg, #252525, #2f2f2f);
+  color: antiquewhite;
+}
+/* skills */
+#skills {
+  background-color: #1b3146;
+  background: linear-gradient(135deg, #252525, #2f2f2f);
+  color: antiquewhite;
+}
+
+.tech-skills {
+  width: 100px;
+}
+#thanks {
+  color: antiquewhite;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#thanks:hover {
+  transform: scale(2);
+}
+
+/* skills */
+#skills {
+  margin-top: 100px;
+  background-color: #1b3146;
+  background: linear-gradient(135deg, #252525, #2f2f2f);
+  color: antiquewhite;  
+}
+/* projects  */
+#projects {
+  margin-top: 100px;
+  background-color: #1b3146;
+  background: linear-gradient(135deg, #252525, #2f2f2f);
+  color: antiquewhite;
+}
+
+/* contact */
+#contact {
+  margin-top: 100px;
+  background-color: #1b3146;
+  background: linear-gradient(135deg, #252525, #2f2f2f);
+  color: antiquewhite;
+}
